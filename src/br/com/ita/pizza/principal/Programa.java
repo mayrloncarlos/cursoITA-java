@@ -15,12 +15,13 @@ public class Programa {
 		
 		pizza1.adicionaIngrediente("Mussarela");
 		pizza1.adicionaIngrediente("Palmito");
-		pizza1.adicionaIngrediente("Calabresa");
 		
 		pizza2.adicionaIngrediente("Frango");
 		pizza2.adicionaIngrediente("Cheddar");
 		pizza2.adicionaIngrediente("Mussarela");
 		pizza2.adicionaIngrediente("Cebola");
+		pizza2.adicionaIngrediente("Alho");
+		pizza2.adicionaIngrediente("Manjericão");
 
 		
 		pizza3.adicionaIngrediente("Carne de Sol");

@@ -48,4 +48,8 @@ public class Pizza {
 		}
 		return preco;
 	}
+	
+	public static void zeraIngredientes() {
+		ingredientesT = 0;
+	}
 }
