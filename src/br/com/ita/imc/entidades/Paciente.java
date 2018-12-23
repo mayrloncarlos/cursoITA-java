@@ -39,7 +39,7 @@ public class Paciente {
 			return "Obesidade Grau II"; 
 		}
 		if (this.calcularIMC() >= 40)  {
-			return "Obesidade Grau III (Obesidade Mórbida"; 
+			return "Obesidade Grau III (Obesidade Mórbida)"; 
 		}
 		return null;
 	}
