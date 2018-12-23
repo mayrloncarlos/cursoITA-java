@@ -33,3 +33,15 @@ Imprime a quantidade utilizada de cada ingrediente
 Faça os testes de unidade da classe Pizza e verifique se o valor da Pizza está correto de acordo com a quantidade de ingredientes. Verifique também se o registro de ingredientes funcionou corretamente. Crie um método estático na classe Pizza que zera o registro de ingredientes e invoque ele em um método de inicialização ou finalização na classe de testes. Um método de teste deve ser independente do que aconteceu em outros métodos de teste!
 
 Faça os testes da classe CarrinhoDeCompras, verificando se o preço das pizzas são somados corretamente e se ele impede a adição de uma pizza sem ingredientes.
+
+# ATIVIDADE COMPLEMENTAR (Testes do Cálculo do IMC)
+Crie os testes de unidade para a classe que voce criou anteriormente para o cálculo do IMC. Crie pelo menos um teste para cada cenário abaixo, verificando o valor do IMC e o resultado obtido do método diagnostico():  
+
+Baixo peso muito grave = IMC abaixo de 16 kg/m²  
+Baixo peso grave = IMC entre 16 e 16,99 kg/m²  
+Baixo peso = IMC entre 17 e 18,49 kg/m²  
+Peso normal = IMC entre 18,50 e 24,99 kg/m²  
+Sobrepeso = IMC entre 25 e 29,99 kg/m²  
+Obesidade grau I = IMC entre 30 e 34,99 kg/m²  
+Obesidade grau II = IMC entre 35 e 39,99 kg/m²  
+Obesidade grau III (obesidade mórbida) = IMC maior que 40 kg/m²  
