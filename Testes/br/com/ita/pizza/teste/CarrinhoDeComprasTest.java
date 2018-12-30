@@ -7,8 +7,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.ita.pizza.entidade.CarrinhoDeCompras;
-import br.com.ita.pizza.entidade.Pizza;
+import br.com.ita.pizza.entidades.CarrinhoDeCompras;
+import br.com.ita.pizza.entidades.Pizza;
 
 public class CarrinhoDeComprasTest {
 

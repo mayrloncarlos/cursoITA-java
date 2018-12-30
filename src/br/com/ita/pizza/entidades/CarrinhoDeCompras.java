@@ -1,4 +1,4 @@
-package br.com.ita.pizza.entidade;
+package br.com.ita.pizza.entidades;
 
 import java.util.ArrayList;
 

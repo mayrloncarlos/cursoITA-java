@@ -1,7 +1,7 @@
 package br.com.ita.pizza.principal;
 
-import br.com.ita.pizza.entidade.CarrinhoDeCompras;
-import br.com.ita.pizza.entidade.Pizza;
+import br.com.ita.pizza.entidades.CarrinhoDeCompras;
+import br.com.ita.pizza.entidades.Pizza;
 
 public class Programa {
 

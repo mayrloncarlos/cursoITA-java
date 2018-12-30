@@ -1,4 +1,4 @@
-package br.com.ita.imc.programa;
+package br.com.ita.imc.principal;
 
 import br.com.ita.imc.entidades.Paciente;
 
