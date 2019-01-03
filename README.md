@@ -52,3 +52,15 @@ Crie uma classe chamada ProdutoComTamanho que estenda a classe Produto. Essa cla
 Crie uma classe CarrinhoDeCompras que armazene em um atributo interno do tipo HashMap cada produto adicionado no carrinho e sua respectiva quantidade. O método adicionaProduto() deve receber a instancia do produto e a quantidade. Caso o produto já exista no HashMap, a quantidade deve ser somada a que já existe no carrinho. Deve haver também um método removeProduto() que também recebe a instancia do produto e a quantidade a ser removida. Observe que produtos de tamanhos diferentes devem ser considerados como produtos diferentes no carrinho. O carrinho deve possuir um método que calcula o valor total da compra.
 
 Crie testes com Unit para a classe Produto, para a classe ProdutoComTamanho e para a classe CarrinhoDeCompras. Os testes de cada classe devem ser colocados em classes separadas e devem estar em um diretório de código diferente das classes de produção.
+
+# QUINTA ATIVIDADE (Formas de Tratamento)
+Crie uma interface chamada FormatadorNome que possui o método String formatarNome(String nome, String sobrenome).
+
+Crie uma classe chamada Autoridade que possui atributos como nome, sobrenome e uma instância de FormatadorNome. Essa classe deve possuir um método getTratamento() que delega a formatação do nome para a instância de FormatadorNome.
+
+Crie a seguintes implementações da interface FormatadorNome:
+
+Informal: retorna somente o primeiro nome
+Respeitoso: deve receber em seu construtor a informação se é masculino ou feminino, e retornar "Sr." ou "Sra." seguido do sobrenome
+ComTítulo: deve receber em seu construtor o título e retornar o título seguido de nome e sobrenome. Exemplo: "Magnífico Pedro Cabral"
+Crie testes de unidade que fazem os testes da classe Autoridade com cada uma das implementações da interface.
